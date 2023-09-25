@@ -1,0 +1,141 @@
+/*Скидання стилів*/
+@import url("reset.css");
+
+
+/* Підключення з Google Fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Inter:regular&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Text:regular&display=swap');
+
+
+/* ==============Основні Стилі============== */
+body {
+	padding: 0px 20px;
+	font-family: 'Inter';
+}
+/*
+/* block 1 */
+.block-img img{
+	margin-bottom: 37px;
+}
+
+
+/* block 2 */
+.block-title {
+	font-size: 30px;
+	font-family: 'Poppins';
+	font-weight: 700;
+	line-height: 127%;
+	color: #37393F;
+	text-transform: capitalize;
+	margin-bottom: 3px;
+}
+
+.block-sub-title {
+	font-size: 18px;
+	line-height: 146%;
+	color: #7D7D7D;
+	margin-bottom: 42px;
+}
+
+.block-title-too {
+	font-size: 20px;
+	font-family: 'Poppins';
+	font-weight: 600;
+	line-height: 127%;
+	color: #6B77E5;
+	margin-bottom: 12px;
+}
+
+.block-sub-title-too {
+	font-size: 18px;
+	line-height: 146%;
+	color: #7D7D7D;
+	margin-bottom: 40px;
+}
+
+
+/* block 3 */
+.block-big {
+	max-width: 692px;
+	font-size: 0px; /* прибираємо відступ між блоками */
+	margin: auto;
+}
+/* -- */
+.block-big-foto {
+	max-width: 331px;
+	display: inline-block;
+	margin-right: 29px;
+}
+
+/* -- */
+.block-big-text {
+	max-width: 332px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.block-big-title {
+	margin-bottom: 15px;
+	font-size: 25px;
+	font-family: 'Poppins';
+	font-weight: 700;
+	line-height: 127%;
+	color: #37393F;
+}
+
+.block-big-sub-title {
+	margin-bottom: 21px;
+	font-size: 20px;
+	font-family: 'Poppins';
+	font-weight: 700;
+	line-height: 127%;
+	color: #40DDB6;
+}
+
+.link {
+	margin-bottom: 30px;
+	font-size: 18px;
+	color: #7D7D7D;
+}
+
+/* block 4 */
+.block-decore {
+	max-width: 1169px;
+	margin: auto; /* прибираємо відступ між блоками */
+	font-size: 0;
+	padding-top:  140px;
+}
+/* -- */
+.block-decore-left {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 38px;
+	max-width: 563px;
+}
+
+.block-decore-left-title {
+	font-family: 'DM Serif Text';
+	font-size: 59px;
+	font-weight: 400;
+	line-height: 146%;
+	color: #0E333D; 
+}
+
+.block-decore-left-sub-title {
+	font-size: 20px;
+	line-height: 180%;
+	color: #474747;
+}
+
+/* -- */
+.block-decore-right {
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 568px;
+
+} 
+.block-decore-right-img02 {
+	margin-right: 22px;	 /* а тут ми їх робимо - відступ між блоками */
+}
