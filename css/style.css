@@ -20,7 +20,15 @@ body {
 	font-family: 'Inter';
 }
 
-/*
+/* -header- */
+h1 {
+	color: #736bfc;
+	text-shadow: -5px 0 5px rgb(192, 190, 187);
+	margin-bottom: 20px;
+	font-family: 'Poppins';
+	font-size: 20px;
+}
+
 /* block 1 */
 .block-img img {
 	margin-bottom: 37px;
@@ -129,7 +137,6 @@ body {
 .block-decore-left-title {
 	font-family: 'DM Serif Text';
 	font-size: 59px;
-	font-weight: 400;
 	line-height: 146%;
 	color: #0E333D;
 }
