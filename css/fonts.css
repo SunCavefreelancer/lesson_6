@@ -1,0 +1,32 @@
+/* Підключення шрифтів вручну */
+@font-face {
+	font-family: '6358-fontps';
+	src:
+		url("..//fonts/6358-fontps.woff2") format("woff2"),
+		url("..//fonts/6358-fontps.woff") format("woff");
+	wont-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* шрифт №2 */
+@font-face {
+	font-family: '12451-fontps';
+	src:
+		url("..//fonts/12451-fontps.woff2") format("woff2"),
+		url("..//fonts/12451-fontps.woff") format("woff");
+	wont-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* шрифт №3 */
+@font-face {
+	font-family: '4649-font';
+	src:
+		url("..//fonts/4649-font.woff2") format("woff2"),
+		url("..//fonts/4649-font.woff") format("woff");
+	wont-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}

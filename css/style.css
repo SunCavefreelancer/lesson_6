@@ -9,15 +9,24 @@
 @import url('https://fonts.googleapis.com/css?family=DM+Serif+Text:regular&display=swap');
 
 
+
+/* =======Підключення шрифтів вручну======= */
+@import url("fonts.css");
+
+
+
+
 /* ==============Основні Стилі============== */
 body {
 	padding: 0px 20px;
 	font-family: 'Inter';
 }
+
 /*
 /* block 1 */
-.block-img img{
+.block-img img {
 	margin-bottom: 37px;
+	max-width: 100%;
 }
 
 
@@ -59,9 +68,10 @@ body {
 /* block 3 */
 .block-big {
 	max-width: 692px;
-	font-size: 0px; /* прибираємо відступ між блоками */
-	margin: auto;
+	font-size: 0px;
+	/* прибираємо відступ між блоками */
 }
+
 /* -- */
 .block-big-foto {
 	max-width: 331px;
@@ -103,10 +113,13 @@ body {
 /* block 4 */
 .block-decore {
 	max-width: 1169px;
-	margin: auto; /* прибираємо відступ між блоками */
+	margin: 0 auto;
+	/* прибираємо відступ між блоками */
 	font-size: 0;
-	padding-top:  140px;
+	padding-top: 140px;
+
 }
+
 /* -- */
 .block-decore-left {
 	display: inline-block;
@@ -120,7 +133,7 @@ body {
 	font-size: 59px;
 	font-weight: 400;
 	line-height: 146%;
-	color: #0E333D; 
+	color: #0E333D;
 }
 
 .block-decore-left-sub-title {
@@ -134,8 +147,153 @@ body {
 	display: inline-block;
 	vertical-align: middle;
 	max-width: 568px;
+}
 
-} 
 .block-decore-right-img02 {
-	margin-right: 22px;	 /* а тут ми їх робимо - відступ між блоками */
+	margin-right: 22px;
+	/* а тут ми їх робимо - відступ між блоками */
+}
+
+.block-decore-right-img02 img {
+	max-width: 100%;
+}
+
+
+/* block 5 */
+.block-multi {
+	padding-top: 80px;
+	margin: 0px 20px 0px 20px;
+	max-width: 1280px;
+	margin: auto;
+}
+
+.block-multi-title span {
+	color: rgb(252, 24, 233);
+	font-style: italic;
+}
+
+.block-multi-sub-title span {
+	color: rgb(252, 24, 233);
+	font-style: italic;
+}
+
+.block-multi-sub-title mark {
+	color: rgb(0, 211, 14);
+	font-style: italic;
+	text-decoration: underline;
+}
+
+.block-multi h2 {
+	margin-bottom: 30px;
+	text-align: center;
+	font-family: '6358-fontps';
+	font-size: 40px;
+	color: #081ff1;
+	text-shadow: 5px 0px 2px rgb(177, 177, 177);
+}
+
+.block-multi-text {
+	line-height: 146%;
+	font-size: 25px;
+	max-width: 700px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-bottom: 20px;
+
+}
+
+.block-multi-img {
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 400px;
+}
+
+.block-multi-img img {
+	max-width: 100%;
+}
+
+.block-multi-img-a {
+	margin-right: 30px;
+}
+
+.block-multi-img-b {
+	margin-left: 5px;
+}
+
+.block-multi-title {
+	font-family: '6358-fontps';
+	color: #4b4d5f;
+	margin-bottom: 30px;
+}
+
+.block-multi-sub-title {
+	font-family: '6358-fontps';
+	color: #4b4d5f;
+	max-height: 100px;
+	overflow: scroll;
+}
+
+
+/* block 6 */
+.block-multi-b {
+	padding: 50px 20px 0px 20px;
+}
+
+.block-multi-b-text {
+	color: #767877;
+	text-transform: capitalize;
+	font-weight: 900;
+	font-size: 18px;
+	max-width: 950px;
+	margin: 0 auto;
+	line-height: 155%;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.block-multi-b-text span {
+	color: #40DDB6;
+	text-decoration: underline;
+}
+
+.block-multi-b h2 {
+	margin-bottom: 30px;
+	font-family: '4649-font';
+	text-align: center;
+	font-size: 25px;
+	color: #081ff1;
+	text-shadow: 5px 0px 2px rgb(177, 177, 177);
+}
+
+.block-multi-b-img {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.block-multi-b-img img {
+	max-width: 100%;
+}
+
+.block-multi-line {
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+/* footer */
+.footer {
+	display: inline-block;
+	margin-bottom: 30px;
+	line-height: 140%;
+}
+
+footer ul li mark {
+	color: #40DDB6;
+}
+
+footer ul li span {
+	color: #1a06fb;
+}
+
+footer ul li img {
+	margin-left: 15px;
 }
