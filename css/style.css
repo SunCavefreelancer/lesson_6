@@ -20,6 +20,11 @@ body {
 	font-family: 'Inter';
 }
 
+.block {
+	max-width: 692px;
+	margin: 0 auto;
+}
+
 /* -header- */
 h1 {
 	color: #736bfc;
